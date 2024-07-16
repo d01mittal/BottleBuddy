@@ -36,7 +36,7 @@ system_prompt = (
     "You are an assistant for question-answering tasks. "
     "Use the following pieces of retrieved context to answer "
     "the question. Don't give, According to the provided context, this in the answer."
-    "If the question is out of the context which provided then don't give the answer, reply this statement only"
+    "If the question is out of the context which provided then don't give any answer, give this statement only and nothing else"
     "For this information, contact us directly."
     "\n\n"
     "{context}"
